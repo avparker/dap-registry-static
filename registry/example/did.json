@@ -1,10 +1,10 @@
 {
-  "id": "did:web:didpay.me:example",
+  "id": "did:web:dapme.xyz:example",
   "verificationMethod": [
     {
-      "id": "did:web:didpay.me:example#0",
+      "id": "did:web:dapme.xyz:example#0",
       "type": "JsonWebKey",
-      "controller": "did:web:didpay.me:example",
+      "controller": "did:web:dapme.xyz:example",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",

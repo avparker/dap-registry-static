@@ -1,10 +1,10 @@
 {
-  "did": "did:web:didpay.me:example",
+  "did": "did:web:dapme.xyz:example",
   "proof": {
     "id": "reg_01j7dmt5rse07brjy8gph9a6t6",
     "handle": "example",
-    "did": "did:web:didpay.me:example",
-    "domain": "didpay.me",
+    "did": "did:web:dapme.xyz:example",
+    "domain": "dapme.xyz",
     "signature": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDp3ZWI6ZGlkcGF5Lm1lOmV4YW1wbGUjMCJ9..1zV8APUtxAX65Jda174TJ4_fU996cT_TVuATlPkw16MsUq_32EXk_Ofi0coQ87_8tbrde6aiAyoDemcD_xq1Dw"
   }
 }
