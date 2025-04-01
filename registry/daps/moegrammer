@@ -1,10 +1,10 @@
 {
-  "did": "did:web:didpay.me:moegrammer",
+  "did": "did:web:dapme.xyz:moegrammer",
   "proof": {
     "id": "reg_01j13n944betnsesdve4ewc9c7",
     "handle": "moegrammer",
-    "did": "did:web:didpay.me:moegrammer",
-    "domain": "didpay.me",
+    "did": "did:web:dapme.xyz:moegrammer",
+    "domain": "dapme.xyz",
     "signature": "eyJhbGciOiJFZERTQSIsImtpZCI6ImRpZDp3ZWI6ZGlkcGF5Lm1lOm1vZWdyYW1tZXIjMCJ9..jD38MMEGR4q9mtupJZ_kNEI3RoqKhhBh3fpdkRUskhLIm0Mr3-5Egm0XflSxkFxyby3Mq8DhL71QImojWJQZCw"
   }
 }

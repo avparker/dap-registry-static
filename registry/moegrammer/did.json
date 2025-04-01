@@ -1,10 +1,10 @@
 {
-  "id": "did:web:didpay.me:moegrammer",
+  "id": "did:web:dapme.xyz:moegrammer",
   "verificationMethod": [
     {
-      "id": "did:web:didpay.me:moegrammer#0",
+      "id": "did:web:dapme.xyz:moegrammer#0",
       "type": "JsonWebKey",
-      "controller": "did:web:didpay.me:moegrammer",
+      "controller": "did:web:dapme.xyz:moegrammer",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
