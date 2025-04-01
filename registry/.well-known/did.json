@@ -1,11 +1,11 @@
 {
-  "id": "did:web:didpay.me",
+  "id": "did:web:dapme.xyz",
   "service": [
     {
       "id": "DAPRegistry",
       "type": "DAPRegistry",
       "serviceEndpoint": [
-        "https://didpay.me"
+        "https://dapme.xyz"
       ]
     }
   ]

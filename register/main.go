@@ -40,8 +40,9 @@ func main() {
 		maddrServices[i] = maddrService
 	}
 
-	domain := "didpay.me/" + handle
-	bearerDID, err := didweb.Create(domain, maddrServices...)
+	domain := "dapme.xyz"
+	url := domain + "/" + handle
+	bearerDID, err := didweb.Create(url, maddrServices...)
 	if err != nil {
 		fmt.Println("Error creating DID:", err)
 		return
@@ -56,7 +57,7 @@ func main() {
 	docPath := filepath.Join("registry", handle, "did.json")
 	writeFile(didDocument, docPath)
 
-	r := dap.NewRegistration(handle, "didpay.me", bearerDID.URI)
+	r := dap.NewRegistration(handle, domain, bearerDID.URI)
 	err = r.Sign(bearerDID)
 	if err != nil {
 		fmt.Println("Error signing registration:", err)
